@@ -1,0 +1,37 @@
+.elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.elements .img {
+  height: 200px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin: 0 auto;
+  width: 100%;
+  cursor: pointer;
+}
+
+.elements .animate {
+  width: 0;
+}
+
+.elements .noAnimated {
+  width: 100%;
+}
+
+.check {
+  width: 40px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+/*# sourceMappingURL=Puzzle.css.map */
